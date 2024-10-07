@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+    <style>
+        h1{
+            text-align: center;
+            text-transform: uppercase;
+            text-decoration: solid;
+            font-weight: 600px;
+            font-size: 100px;
+            color:darkgreen;
+        }
+        button{
+            display:flexbox;
+            padding-top: 0.7rem;
+            padding-bottom: 0.7rem;
+            padding-left: 0.8rem;
+            padding-right: 0.8rem;
+            border-radius: 500rem;
+            margin:auto;
+            color: blue;
+            background-color: cyan;
+            align-items:center;
+        }
+        button:hover{
+            margin:20rem;
+            align-content:center;
+        }
+        body{
+            background-color: darkorange;
+            text-align: center;
+            font-size: 50px;
+        }
+        a{
+            text-align: center;
+            color:blue;
+
+        }
+
+    </style>
+</head>
+<body>
+    <form name="login"  method="post" action="login.php">
+        <h1>LOGIN FORM</h1>
+        Name:<input type="text"
+        name="username"
+        value=""/>
+        <br/>
+        Password:<input type="password"
+        name="Password"
+        value=""/>
+    </br>
+    <button type="submit"
+    name="submit"
+    value="">
+    💨LOGIN
+</button>
+</br>
+<button type="reset"
+name="reset"
+value="">
+❌CANCEL
+</button>
+</br>
+<a href="reset.html"> Forget Your Password</a>
+    </form>
+        
+</body>
+</html>
